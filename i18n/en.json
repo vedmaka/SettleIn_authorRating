@@ -2,6 +2,7 @@
   "@metadata": {
     "authors": []
   },
-  "authorrating-desc": "This is an example extension",
-  "authorrating-i18n-welcome": "Welcome to the localization file of the authorRating extension."
+  "authorrating-desc": "Extension for SettleIn skin provides page author rating functionality",
+  "authorrating-i18n-welcome": "Welcome to the localization file of the authorRating extension.",
+  "authorrating-rate-title": "Click to rate author"
 }

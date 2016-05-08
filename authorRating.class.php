@@ -61,7 +61,7 @@ class authorRating
         $html .= $parser->insertStripItem( ' <a target="_blank" href="' . $author->getUserPage()->getFullURL() . '">'
             . $author->getName() . '</a>' );
 
-        $html .= ' <i style="display: none;" class="fa fa-thumbs-o-up author-thumbs-up" title="Click to rate author"></i>';
+        $html .= ' <i style="display: none;" class="fa fa-thumbs-o-up author-thumbs-up" title="'.wfMessage( 'authorrating-rate-title' )->plain().'"></i>';
         $html .= ' <span class="label label-success">?</span>';
         $html .= '</span>';
 
